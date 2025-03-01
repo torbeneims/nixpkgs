@@ -11,7 +11,7 @@ python3.pkgs.buildPythonPackage rec {
 
   src = fetchPypi {
     inherit pname version;
-    hash = "sha256-S/ZlEFgcFiLr0V7g0X0bjWU0YNVzA0JctFaJTK/QkpI=";
+    hash = "sha256-hHnxgbRfbTnBZN7G0AMQ9SNSGYgoXew+JNvYw0bAk6o=";
   };
 
   pythonRelaxDeps = true;
