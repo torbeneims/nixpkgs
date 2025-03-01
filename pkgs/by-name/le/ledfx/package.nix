@@ -6,7 +6,7 @@
 
 python3.pkgs.buildPythonPackage rec {
   pname = "ledfx";
-  version = "2.0.105";
+  version = "2.0.107";
   pyproject = true;
 
   src = fetchPypi {
